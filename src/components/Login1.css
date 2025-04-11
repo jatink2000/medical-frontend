@@ -1,0 +1,86 @@
+.login {
+  font-family: Arial, sans-serif;
+  background-color: #f3f2ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login .container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-family:cursive;
+}
+
+.login p {
+  color: #666;
+  margin-bottom: 24px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.login input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login .password-container {
+  position: relative;
+}
+
+.login .password-container a {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #0073b1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login  a {
+  color: #0073b1;
+  text-decoration: none;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+.login button {
+  width: 100%;
+  padding: 12px;
+  background-color:#2d92ef;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.login .loginlogo{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.login .loginlogo img{
+  width: 100%;
+  max-width: 120px;
+}
+
+.login  button:hover {
+  background-color:#6baeed;
+}
